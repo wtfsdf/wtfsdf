@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<title>
+   
+     uploa music</music>
+</title>
+<link rel="stylesheet" href="style.css">
+<head>
+   <h1><em>...STREEM...IT...</em></h1> 
+   <br>
+</head>   
+<body>
+    <!--fronttoppage-->
+<nav class="flex-div">
+    <div class="nav-midle flex-div">
+        <div class="serch-box flex-div">
+            <input type="text"placeholder="search">
+            <img src="search.png">
+        </div> 
+        <img src="voice-search.png" class="mic-icon">
+        
+    </div>
+     <Div class="nav-right ">
+        <Div class="nav-right flex-div">
+        <img src="home.png">
+        <img src="notification.png">
+        <img src="playlist.png">
+        <img src="upload.png">
+        <img src="more.png ">
+        <img src="share.png">
+     </Div>
+</nav>
+<!--lets play music-->
+<div class="contianer">
+    <div class="navbar">
+        <div class="sh">
+        <ul>
+            <li><a href="#">about</a></li>
+            <li><a href="#">sign up</a></li>
+            <li><a href="#">log in</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">email</a></li>
+        </ul>
+    </div>
+
+<!--lets make time-->
+<div class="container">
+    
+    <h1 id="curent-time"></h1>
+    <div class="quotes">
+        <p>today's quotes</p>
+        <h2>he who knows others is learnd; he who knows himsef is wise</h2>
+
+    </div>
+
+</div>
+
+</body> 
+<!--time my time-->
+<script>
+    let time = document .getElementById("curent-time");
+
+    setInterval(() =>{
+        let d = new Date();
+        time.innerHTML = d. toLocaleString();
+    },1000)
+    
+</script>
+
+</div>
+</html>
